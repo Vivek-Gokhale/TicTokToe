@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TicTokToeStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="homeStyle.css" type="text/css">
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Tic Tok Toe</title>
+</head>
+<body class="bg-dark">
+    <br><br>
+    <center>
+        <div id="info">
+            <h1>Rules for game</h1>
+            <h3>Player 1 has [O] mark</h3>
+            <h3>Player 1 has [X] mark</h3>
+            <p>Player whose able to make winning pattern first will win. no one will be win Game Result considered as Tie</p>
+        </div>
+    </center>
+    
+<br>
+    <div id="center">
+        <center id="heading"><h4>Player 1's Turn</h4></center>
+        <table id="board"  align="center">
+            
+            <tr id="row1">
+                <td><button class="btnOX" id="btn0"></button></td>
+                <td><button class="btnOX" id="btn1"></button></td>
+                <td><button class="btnOX" id="btn2"></button></td>
+            </tr>
+            <tr id="row2">
+                <td><button class="btnOX" id="btn3"></button></td>
+                <td><button class="btnOX" id="btn4"></button></td>
+                <td><button class="btnOX" id="btn5"></button></td>
+            </tr>
+            <tr id="row3">
+                <td><button class="btnOX" id="btn6"></button></td>
+                <td><button class="btnOX" id="btn7"></button></td>
+                <td><button class="btnOX" id="btn8"></button></td>
+            </tr>
+           
+        </table>
+    </div>
+    
+    <center id = "winTag"><h4></h4></center>
+    <script src="TicTokToeScript.js"></script>
+</body>
+</html>

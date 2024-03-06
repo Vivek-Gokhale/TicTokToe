@@ -1,0 +1,29 @@
+#board{
+    align-content:center;
+}
+.btnOX{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #010B13 !important;
+    background-color: #010B13 !important; 
+    color : #0ef;
+    font-size: 25px;
+    
+}
+#winTag{
+    color: #0ef;
+    font-size: 24px;
+    
+}
+#info{
+    border: 3px solid #0ef;
+    width: 600px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: rgba(245, 245, 245, 0.843)
+}
+#heading{
+    color: #0ef
+}
